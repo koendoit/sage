@@ -90,3 +90,6 @@ Container::getInstance()
             'view' => require dirname(__DIR__).'/config/view.php',
         ]);
     }, true);
+
+    
+include( get_template_directory() . '/functions-extend/adminlogin.php' );
