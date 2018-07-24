@@ -22,14 +22,5 @@ const routes = new Router({
   aboutUs,
 });
 
-// inport fontawesome SVG with js
-import fontawesome from "@fortawesome/fontawesome"; 
-import faPhone from "@fortawesome/fontawesome-pro-solid/faPhone";
-import faEnvelope from "@fortawesome/fontawesome-pro-solid/faEnvelope";
-import faHome from "@fortawesome/fontawesome-pro-solid/faHome";
-import faAngleRight from "@fortawesome/fontawesome-pro-light/faAngleRight";
-import faAngleLeft from "@fortawesome/fontawesome-pro-light/faAngleLeft";
-fontawesome.library.add(faPhone, faEnvelope, faHome, faAngleRight, faAngleLeft)
-
 // Load Events
 jQuery(document).ready(() => routes.loadEvents());
